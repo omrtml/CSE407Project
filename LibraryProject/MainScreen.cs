@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace LibraryProject
 {
-    public partial class Form1 : Form
+    public partial class MainScreen : Form
     {
-        public Form1()
+        public MainScreen()
         {
             InitializeComponent();
+        }
+
+        private void MainScreen_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginScreen ls = new LoginScreen();
+            ls.Show();
         }
     }
 }
