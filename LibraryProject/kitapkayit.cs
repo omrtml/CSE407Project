@@ -57,15 +57,13 @@ namespace kitap_kayit
             }
             else
             {
-                MessageBox.Show("öğrenci zaten kayıtlı");
+                MessageBox.Show("Kitap zaten kayıtlı");
 
 
             }
 
             con.Close();
-            {
-                MessageBox.Show("kayit basarili");
-            }
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
