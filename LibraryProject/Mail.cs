@@ -57,7 +57,7 @@ namespace Mail_Module
 
         private void Mail_Load(object sender, EventArgs e)
         {
-
+         
         }
     }
 }
